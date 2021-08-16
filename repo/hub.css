@@ -1,1 +1,33 @@
+.huubt, .huubt li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}  
+.huubt li>a {
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  width: 48px;
+  height: 48px;
+}  
 
+.huubt.facebook {
+  background-image: url(img/facebook-img256x256.png);
+}
+.huubt.twitter {
+  background-image: url(img/twitter-img256x256.png);
+}
+.huubt.instagram {
+  background-image: url(img/instagram-img256x256.png);
+}
+.huubt.pinterest {
+  background-image: url(img/pinterest-img256x256.png);
+}
+.huubt.youtube {
+  background-image: url(img/youtube-img256x256.png);
+}
+.huubt.linkedin {
+  background-image: url(img/linkedin-img256x256.png);
+}
