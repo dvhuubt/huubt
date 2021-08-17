@@ -6,6 +6,10 @@
 }  
 .huubt li {
   margin: 0 .25em;
+  float: left;
+}  
+.huubt:after {
+  clear: both;
 }  
 .huubt li>a {
   display: inline-block;
@@ -14,26 +18,27 @@
   background-size: cover;
   width: 48px;
   height: 48px;
+  line-height: 48px;
 }
 .huubt li>a span {
   display: none;
 }  
 
-.huubt.facebook>a {
+.huubt .facebook>a {
   background-image: url(https://dvhuubt.github.io/huubt/repo/img/facebook-img128x128.png);
 }
-.huubt.twitter>a {
+.huubt .twitter>a {
   background-image: url(img/twitter-img128x128.png);
 }
-.huubt.instagram>a {
+.huubt .instagram>a {
   background-image: url(img/instagram-img128x128.png);
 }
-.huubt.pinterest>a {
+.huubt .pinterest>a {
   background-image: url(img/pinterest-img128x128.png);
 }
-.huubt.youtube>a {
+.huubt .youtube>a {
   background-image: url(img/youtube-img128x128.png);
 }
-.huubt.linkedin>a {
+.huubt .linkedin>a {
   background-image: url(img/linkedin-img128x128.png);
 }
