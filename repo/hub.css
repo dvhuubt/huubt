@@ -9,7 +9,7 @@
 }  
 .huubt li {
   margin: 0 .35em;
-  float: left;
+  -float: left;
 }  
 .huubt:after {
   clear: both;
