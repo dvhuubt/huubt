@@ -10,6 +10,7 @@
 }  
 .huubt li {
   margin: 0 .35em;
+  vertical-align: middle;
   float: left;
 }  
 .huubt:after {
