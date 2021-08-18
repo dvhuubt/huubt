@@ -1,5 +1,6 @@
 .huubt {
-  border: 1px dotted #eee
+  border: 1px dotted #eee;
+  background: yellow
 }  
 .huubt, .huubt li {
   padding: 0;
