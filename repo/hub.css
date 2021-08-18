@@ -12,7 +12,7 @@
   -float: left;
 }  
 .huubt:after {
-  clear: both;
+  -clear: both;
 }  
 .huubt li>a {
   display: inline-block;
