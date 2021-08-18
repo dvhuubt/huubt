@@ -1,5 +1,4 @@
 .huubt {
-  background: yellow;
 }  
 .huubt, .huubt li {
   padding: 0;
@@ -11,6 +10,7 @@
 .huubt li {
   margin: 0 .35em;
   vertical-align: middle;
+  background: yellow;
   float: left;
 }  
 .huubt:after {
