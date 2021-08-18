@@ -1,19 +1,21 @@
 .huubt {
   border: 1px dotted #eee;
-  background: yellow
+  background: yellow;
+  line-height: 48px;
 }  
 .huubt, .huubt li {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: inline;
+  display: inline-block;
 }  
 .huubt li {
+  line-height: 48px;
   margin: 0 .35em;
-  -float: left;
+  float: left;
 }  
 .huubt:after {
-  -clear: both;
+  clear: both;
 }  
 .huubt li>a {
   display: inline-block;
