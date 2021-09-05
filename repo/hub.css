@@ -1,5 +1,4 @@
 .huubt {
-    margin-left: -.25em;
 }  
 .huubt, .huubt li {
   padding: 0;
@@ -12,7 +11,13 @@
   margin: 0 .25em;
   vertical-align: middle;
   float: left;
-}  
+} 
+.huubt-li:first-child {
+  margin-left: 0
+}
+.huubt-li:last-child {
+  margin-right: 0
+}      
 .huubt:after {
   clear: both;
 }  
