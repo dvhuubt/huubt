@@ -16,7 +16,8 @@
   margin-left: 0
 }
 .huubt li:last-child {
-  margin-right: 0
+  margin-right: 0;
+  float: none
 }      
 .huubt:after {
   clear: both;
@@ -37,6 +38,11 @@
 .huubt li>a span {
   display: none;
 }  
+
+.inv {
+  filter: invert(100%); 
+}  
+
 
 .huubt .facebook>a {
   background-image: url(img/facebook-img128x128.png);
