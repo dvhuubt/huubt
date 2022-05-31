@@ -10,7 +10,7 @@
 .huubt li {
   margin: 0 .25em;
   vertical-align: middle;
-  float: left;
+ /* float: left; */
 } 
 .huubt li:first-child {
   margin-left: 0
@@ -19,8 +19,8 @@
   margin-right: 0;
   float: none
 }      
-.huubt:after {
-  clear: both;
+.huubt::after {
+  clear: both
 }  
 .huubt li>a {
   display: inline-block;
